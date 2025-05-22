@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLIENTES</title><link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1 class="ph-style-title">
+  <span class="ph-white">Gestión</span><span class="ph-orange">Clientes</span></h1>
+
+    <form id="fromCliente">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="email" id="email" placeholder="Correo Electronico" required>
+        <input type="text" id="telefono" placeholder="Telefono" required>
+        <button type="submit">Registrar</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Telefono</th>
+                    <th>Correo Electronico</th>
+                </tr>
+            </thead>
+            <tbody id="tablaClientes"></tbody>
+        </table>
+        <script src="js/main.js"></script>
+    </form>
+    
+</body>
+</html>
