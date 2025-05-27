@@ -1,5 +1,5 @@
 import express from 'express';
-import { obtenerVentas, registrarVentas} from '../cotrollers/ventasController.js';
+import { obtenerVentas, registrarVentas} from '../cotrollers/ventaController.js';
 import router from './clienteRoutes.js';
 
 
